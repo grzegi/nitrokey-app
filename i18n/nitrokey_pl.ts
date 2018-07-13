@@ -1357,11 +1357,11 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Hidden volume could not be created.</source>
-        <translation>Nie można było utworzyć ukrytej głośności.</translation>
+        <translation>Nie udało się utworzyć ukrytego woluminu.</translation>
     </message>
     <message>
         <source>To complete the lock procedure, please remove and reconnect the Nitrokey.</source>
-        <translation>Aby zakończyć procedurę blokowania, należy usunąć i ponownie podłączyć przycisk Nitrokey.</translation>
+        <translation>Aby zakończyć procedurę blokowania, należy usunąć i ponownie podłączyć klucz Nitrokey.</translation>
     </message>
 </context>
 <context>
@@ -1376,11 +1376,11 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Nitrokey is not connected!</source>
-        <translation>Nitrokey nie jest podłączony!</translation>
+        <translation>Klucz Nitrokey nie jest podłączony!</translation>
     </message>
     <message>
         <source>Unlock password safe</source>
-        <translation>Bezpieczne odblokowanie hasła</translation>
+        <translation>Odblokowanie bezpiecznego hasła</translation>
     </message>
     <message>
         <source>&amp;OTP</source>
@@ -1388,7 +1388,7 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>&amp;Factory reset</source>
-        <translation>&amp;Reset fabryczny</translation>
+        <translation>&amp;Przywrócenie do ustawień fabrycznych</translation>
     </message>
     <message>
         <source>&amp;Change User PIN</source>
@@ -1396,15 +1396,15 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>&amp;Change Admin PIN</source>
-        <translation>&amp;Zmień PIN administratora</translation>
+        <translation>&amp;Zmiana kodu PIN administratora</translation>
     </message>
     <message>
         <source>&amp;Debug</source>
-        <translation>&amp;Debug</translation>
+        <translation>&amp;Debugowanie</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>&amp;Wyjść</translation>
+        <translation>&amp;Wyjście</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -1416,35 +1416,35 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>&amp;OTP and Password safe</source>
-        <translation>&amp;OTP i sejf na hasło</translation>
+        <translation>&amp;OTP i bezpieczne hasło</translation>
     </message>
     <message>
         <source>&amp;Unlock encrypted volume</source>
-        <translation>&amp;Odblokuj zaszyfrowaną objętość</translation>
+        <translation>&amp;Odblokuj zaszyfrowany wolumin</translation>
     </message>
     <message>
         <source>&amp;Lock encrypted volume</source>
-        <translation>&amp;Blokada szyfrowanego woluminu</translation>
+        <translation>&amp;Zablokuj zaszyfrowany wolumin</translation>
     </message>
     <message>
         <source>&amp;Unlock hidden volume</source>
-        <translation>&amp;Odblokuj ukrytą głośność</translation>
+        <translation>&amp;Odblokuj ukryty wolumin</translation>
     </message>
     <message>
         <source>&amp;Lock hidden volume</source>
-        <translation>&amp;Zablokuj ukrytą głośność</translation>
+        <translation>&amp;Zablokuj ukryty wolumin</translation>
     </message>
     <message>
         <source>&amp;Change Firmware Password</source>
-        <translation>&amp;Zmień hasło firmware&apos;u</translation>
+        <translation>&amp;Zmień hasło do firmware&apos;u</translation>
     </message>
     <message>
         <source>&amp;Enable firmware update</source>
-        <translation>&amp;Włącz aktualizację oprogramowania sprzętowego</translation>
+        <translation>&amp;Włącz aktualizację firmware</translation>
     </message>
     <message>
         <source>&amp;Export firmware to file</source>
-        <translation>&amp;Eksport oprogramowania układowego do pliku</translation>
+        <translation>&amp;Eksport firmware do pliku</translation>
     </message>
     <message>
         <source>&amp;Destroy encrypted data</source>
@@ -1452,31 +1452,31 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>&amp;Initialize device</source>
-        <translation>&amp;Urządzenie inicjujące</translation>
+        <translation>&amp;Inicjalizacja urządzenia</translation>
     </message>
     <message>
         <source>&amp;Initialize storage with random data</source>
-        <translation>&amp;Inicjalizacja pamięci masowej z przypadkowymi danymi</translation>
+        <translation>&amp;Inicjalizacja pamięci masowej z losowymi danymi</translation>
     </message>
     <message>
         <source>&amp;Set unencrypted volume read-only</source>
-        <translation>&amp;Ustaw tylko do odczytu niezaszyfrowanej głośności</translation>
+        <translation>&amp;Ustaw niezaszyfrowany wolumin w trybie tylko do odczytu</translation>
     </message>
     <message>
         <source>&amp;Set unencrypted volume read-write</source>
-        <translation>&amp;Ustawianie odczytu i zapisu niezaszyfrowanego woluminu</translation>
+        <translation>&amp;Ustaw niezaszyfrowany wolumin w trybie do odczytu i zapisu</translation>
     </message>
     <message>
         <source>&amp;Set encrypted volume read-only</source>
-        <translation>&amp;Ustaw tylko do odczytu zaszyfrowanego woluminu</translation>
+        <translation>&amp;Ustaw zaszyfrowany wolumin w trybie tylko do odczytu</translation>
     </message>
     <message>
         <source>&amp;Set encrypted volume read-write</source>
-        <translation>&amp;Ustawienie zaszyfrowanego woluminu do odczytu i zapisu</translation>
+        <translation>&amp;Ustaw zaszyfrowany wolumin w trybie do odczytu i zapisu</translation>
     </message>
     <message>
         <source>&amp;Setup hidden volume</source>
-        <translation>&amp;Ustaw głośność ukrytą</translation>
+        <translation>&amp;Ustawienia ukrytego woluminu</translation>
     </message>
     <message>
         <source>&amp;Disable &apos;initialize storage with random data&apos; warning</source>
@@ -1484,7 +1484,7 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>&amp;Lock stick hardware</source>
-        <translation>&amp;Okucia do klamek</translation>
+        <translation>&amp;Zablokuj sprzętowo dysk USB</translation>
     </message>
     <message>
         <source>&amp;Reset User PIN</source>
@@ -1492,11 +1492,11 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>&amp;Lock Device</source>
-        <translation>&amp;Urządzenie blokujące</translation>
+        <translation>&amp;Zablokuj urządzenie</translation>
     </message>
     <message>
         <source>Smartcard or SD card are not ready</source>
-        <translation>Karta Smartcard lub karta SD nie są gotowe do pracy</translation>
+        <translation>Karta inteligentna lub karta SD nie są gotowe</translation>
     </message>
     <message>
         <source>Passwords</source>
@@ -1516,7 +1516,7 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Long operation in progress: %1%</source>
-        <translation>Trwa długa praca: %1%</translation>
+        <translation>Długa operacja w toku: %1%</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
@@ -1531,38 +1531,38 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When you select &amp;quot;OK&amp;quot; the device enters the &lt;br/&gt;firmware update mode. There is no way back!&lt;br/&gt;Please read the &lt;a href=&quot;https://www.nitrokey.com/en/doc/firmware-update-storage&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;documentation &lt;/span&gt;&lt;/a&gt;how to &lt;br/&gt;update the firmware.&lt;/p&gt;&lt;p&gt;Continue entering the firmware update mode?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;W momencie wyboru &amp;quot; OK&amp;quot; urządzenie wchodzi w tryb aktualizacji oprogramowania &lt;br/&gt;. Nie ma odwrotu!&lt;br/&gt;Pozwalaj przeczytać &lt;a href=&quot;https://www.nitrokey.com/en/doc/firmware-update-storage&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;dokumentacja &lt;/span&gt;&lt;/a&gt;pokazać, aby &lt;br/&gt;aktualizować/poprzedzić firmware.&lt;/p&gt;&lt;p&gt;Continue wchodząc w tryb aktualizacji firmware&apos;?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;W momencie wyboru &amp;quot; OK&amp;quot; urządzenie wchodzi w tryb do aktualizacji oprogramowania &lt;br/&gt;. Nie ma od tego odwrotu!&lt;br/&gt;Przeczytaj &lt;a href=&quot;https://www.nitrokey.com/en/doc/firmware-update-storage&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;dokumentację &lt;/span&gt;&lt;/a&gt;aby &lt;br/&gt;zaktualizować firmware.&lt;/p&gt;&lt;p&gt;Kontynuować przejście w tryb do aktualizacji firmware?&apos;?&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
         <source>Nitrokey App - Manage your Nitrokey sticks</source>
-        <translation>Aplikacja Nitrokey App - Zarządzaj kijami Nitrokeya</translation>
+        <translation>Aplikacja Nitrokey - Zarządzaj kluczami USB Nitrokey</translation>
     </message>
     <message>
         <source>Enable debug messages</source>
-        <translation>Włączanie komunikatów o błędzie</translation>
+        <translation>Włączanie komunikatów o debugowaniu</translation>
     </message>
     <message>
         <source>Save debug log to file with name &lt;log-file-name&gt; (experimental)</source>
-        <translation>Zapisywanie logu debugowania do pliku o nazwie &lt;nazwa logu&gt; (eksperymentalnie)</translation>
+        <translation>Zapisywanie logu debugowania do pliku o nazwie &lt;nazwa logu&gt; (funkcja eksperymentalna)</translation>
     </message>
     <message>
         <source>Save debug log to App&apos;s window (experimental)</source>
-        <translation>Zapisywanie logu debugowania w oknie aplikacji (eksperymentalne)</translation>
+        <translation>Zapisywanie logu debugowania w oknie aplikacji (funkcja eksperymentalna)</translation>
     </message>
     <message>
         <source>Set delay between commands sent to device (in ms) to &lt;delay&gt;</source>
-        <translation>Opóźnienie między poleceniami wysyłanymi do urządzenia (w ms) ustawić na &lt;delay&gt;</translation>
+        <translation>Ustaw opóźnienie między poleceniami wysyłanymi do urządzenia (w ms) na wartość&lt;delay&gt;</translation>
     </message>
     <message>
         <source>Show additional information about binary</source>
-        <translation>Pokaż dodatkowe informacje na temat binarnego</translation>
+        <translation>Pokaż dodatkowe informacje na temat aplikacji</translation>
     </message>
     <message>
         <source>Enable extra administrative functions</source>
-        <translation>Włączyć dodatkowe funkcje administracyjne</translation>
+        <translation>Włącz dodatkowe funkcje administracyjne</translation>
     </message>
     <message>
         <source>List available languages</source>
@@ -1570,7 +1570,7 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Load translation file with given name and store this choice in settings file.</source>
-        <translation>Wczytaj plik tłumaczeniowy o podanej nazwie i zapisz ten wybór w pliku ustawień.</translation>
+        <translation>Wczytaj plik z tłumaczeniem o podanej nazwie i zapisz ten wybór w pliku ustawień.</translation>
     </message>
     <message>
         <source>Set debug level, 0-4</source>
@@ -1585,11 +1585,11 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     <name>securitydialog</name>
     <message>
         <source>Dialog</source>
-        <translation>Rozmowa</translation>
+        <translation>Okno dialogowe</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Security Information&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Please read the following carefully.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PIN Protection&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Nitrokey is protected by both a user PIN and an admin PIN. Your user PIN can unlock the encrypted storage, password safe, smart card and (if enabled) One-Time Passwords (OTP). OTPs aren&apos;t PIN-protected by default because they are only used as a secondary factor. The smart card is unlocked whenever the user PIN is entered, regardless of the function for which the PIN is entered. The admin PIN can be used to configure settings and to add or change entries. You must change the default PINs and keep them confidential. If the user PIN and admin PIN are entered incorrectly three times each, or if the smart card has been reset to factory settings, all your sensitive data will be permanently lost.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Physical Protection&lt;/span&gt;&lt;/p&gt;&lt;p&gt;All sensitive data is encrypted and secured against physical attacks. This does not apply to One-Time Passwords (OTP) because they are only used as a secondary factor.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Hidden Volumes&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Hidden volumes require that the mass storage be initialised with random data. Hidden volumes are protected by both a user PIN and a separate password which can be different for each hidden volume. Without knowing both the user PIN and password, the hidden volume cannot be found and its existence can therefore neither be proven nor disproven. The password for the hidden volume must be strong and long enough to withstand a brute force attack. The hidden volumes are however stored on a flash storage with integrated wear levelling, meaning that information could potentially be leaked to a sophisticated attacker, thereby revealing the existence of hidden volumes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Informacje na temat bezpieczeństwa&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Prosimy o uważne zapoznanie się z poniższymi informacjami.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PIN Ochrona&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Nitrokey jest chroniony zarówno kodem PIN użytkownika, jak i kodem PIN administratora. Kod PIN użytkownika może odblokować zaszyfrowany nośnik, zabezpieczać hasłem, kartę inteligentną i (jeśli jest włączona) hasło jednorazowe (OTP). OTP nie są domyślnie chronione kodem PIN, ponieważ są używane tylko jako czynnik drugorzędny. Karta inteligentna jest odblokowywana po wprowadzeniu kodu PIN użytkownika, niezależnie od funkcji, dla której jest wprowadzany. Za pomocą kodu PIN administratora można konfigurować ustawienia oraz dodawać lub zmieniać wpisy. Należy zmienić domyślne kody PIN i zachować ich poufność. W przypadku trzykrotnego nieprawidłowego wprowadzenia kodu PIN użytkownika i kodu PIN administratora lub w przypadku przywrócenia ustawień fabrycznych karty inteligentnej, wszystkie wrażliwe dane zostaną trwale utracone.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ochrona fizyczna&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Wszystkie dane szczególnie chronione są szyfrowane i zabezpieczone przed atakami fizycznymi. Nie dotyczy to haseł jednorazowych (OTP), ponieważ są one używane tylko jako czynnik drugorzędny.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Głośności ukryte&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Pojemności ukryte wymagają inicjalizacji pamięci masowej losowymi danymi. Wolumeny ukryte są chronione zarówno kodem PIN użytkownika, jak i oddzielnym hasłem, które może być różne dla każdego ukrytego woluminu. Nie znając zarówno kodu PIN użytkownika, jak i hasła, nie można odnaleźć ukrytego woluminu i w związku z tym nie można udowodnić ani obalić jego istnienia. Hasło do ukrytego woluminu musi być silne i wystarczająco długie, aby wytrzymać brutalny atak siłowy. Ukryte objętości są jednak przechowywane na pamięci flash ze zintegrowanym wyrównywaniem zużycia, co oznacza, że informacje mogą potencjalnie zostać ujawnione zaawansowanemu podmiotowi atakującemu, ujawniając w ten sposób istnienie ukrytych objętości.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Informacje na temat bezpieczeństwa&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Prosimy o uważne zapoznanie się z poniższymi informacjami.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ochrona kodu PIN&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Nitrokey jest chroniony zarówno kodem PIN użytkownika, jak i kodem PIN administratora. Kod PIN użytkownika może odblokować zaszyfrowany nośnik, sejf z hasłami, kartę inteligentną i (jeśli jest włączone) hasła jednorazowe (OTP). Hasła jednorazowe nie są domyślnie chronione kodem PIN, ponieważ są używane tylko jako drugi poziom zabezpieczeń. Karta inteligentna jest odblokowywana po wprowadzeniu kodu PIN użytkownika, niezależnie od funkcji, którą dana karta spełnia. Za pomocą kodu PIN administratora można konfigurować ustawienia oraz dodawać lub zmieniać wpisy. Należy obowiązkowo zmienić domyślne kody PIN i zadbać o ich bezpieczne przechowywanie. W przypadku trzykrotnego nieprawidłowego wprowadzenia kodu PIN użytkownika i kodu PIN administratora lub w przypadku przywrócenia ustawień fabrycznych karty inteligentnej, wszystkie wrażliwe dane zostaną trwale utracone.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ochrona fizyczna&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Wszystkie dane wrażliwe są szyfrowane i zabezpieczone przed atakami fizycznymi. Nie dotyczy to haseł jednorazowych (OTP), ponieważ są one używane tylko jako drugi poziom zabezpieczeń.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ukryte woluminy&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Ukryte woluminy wymagają inicjalizacji pamięci masowej losowymi danymi. Woluminy ukryte są chronione zarówno kodem PIN użytkownika, jak i oddzielnym hasłem, które może być różne dla każdego ukrytego woluminu. Nie znając jednocześnie kodu PIN użytkownika i hasła, nie można zamontować ukrytego woluminu, w związku z tym nie można udowodnić ani obalić jego istnienia. Hasło do ukrytego woluminu musi być silne i wystarczająco długie, aby wytrzymać brutalny atak siłowy. Ukryte woluminy są jednakże przechowywane w pamięci flash z funkcją zintegrowanego wyrównywania zużycia, co oznacza, że pewne informacje mogą zostać potencjalnie ujawnione zaawansowanemu podmiotowi atakującemu, ukazując w ten sposób istnienie ukrytych woluminów.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>OK</source>
@@ -1604,15 +1604,15 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     <name>stick20HiddenVolumeDialog</name>
     <message>
         <source>Setup hidden volume</source>
-        <translation>Ustawianie głośności ukrytej</translation>
+        <translation>Ustawienia ukrytego woluminu</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;You should understand the properties of hidden volumes before proceeding. It can destroy your encrypted data! &lt;br/&gt;Please read &lt;/span&gt;&lt;a href=&quot;https://www.nitrokey.com/documentation/hidden-volumes&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;these instructions&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; first.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Zanim przejdziesz do kolejnego etapu, powinieneś zrozumieć właściwości ukrytych woluminów. Może to zniszczyć zaszyfrowane dane! &lt;br/&gt;Proszę przeczytać &lt;/span&gt;&lt;a href=&quot;https://www.nitrokey.com/documentation/hidden-volumes&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;niniejsza instrukcja&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; pierwszy.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Zanim przejdziesz do kolejnego etapu, powinieneś w pełni rozumieć właściwości ukrytych woluminów. W przeciwnym razie narażasz się na zniszczenie zaszyfrowanych danych! &lt;br/&gt;Przeczytaj artykuł: &lt;/span&gt;&lt;a href=&quot;https://www.nitrokey.com/documentation/hidden-volumes&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0000ff;&quot;&gt;niniejsza instrukcja&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-weight:600;&quot;&gt; przed kontynuowaniem.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1. You may want to copy some innocuous files to the encrypted data.&lt;br/&gt;2. Configure hidden volumes in this dialogue. &lt;br/&gt;3. Once you configured a hidden volume you must not use/write to the encryption volume anymore. Otherwise it may destroy the data in your hidden volume.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1. Może zaistnieć potrzeba skopiowania niektórych nieszkodliwych plików do zaszyfrowanych danych..&lt;br/&gt;2. Konfiguracja ukrytych woluminów w tym oknie dialogowym. &lt;br/&gt;3. Po skonfigurowaniu woluminu ukrytego nie wolno już używać/zapisywać woluminu szyfrowania, w przeciwnym razie może on zniszczyć dane w woluminie ukrytym.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1. Może zaistnieć potrzeba skopiowania niektórych nieszkodliwych plików do zaszyfrowanych danych.&lt;br/&gt;2. Konfiguracja ukrytych woluminów w tym oknie dialogowym. &lt;br/&gt;3. Po skonfigurowaniu woluminu ukrytego nie należy wykonywać procedury szyfrowania/zapisu na tym woluminie, w przeciwnym razie może ona zniszczyć dane w tym woluminie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Password settings</source>
@@ -1620,47 +1620,47 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Password strength:</source>
-        <translation>Wytrzymałość hasła:</translation>
+        <translation>Siła hasła:</translation>
     </message>
     <message>
         <source>length</source>
-        <translation>dlugość</translation>
+        <translation>Długość</translation>
     </message>
     <message>
         <source>lower case</source>
-        <translation>mały</translation>
+        <translation>Małe litery</translation>
     </message>
     <message>
         <source>upper case</source>
-        <translation>górny etui</translation>
+        <translation>Duże litery</translation>
     </message>
     <message>
         <source>numbers</source>
-        <translation>cyfry</translation>
+        <translation>Cyfry</translation>
     </message>
     <message>
         <source>symbols</source>
-        <translation>symbole</translation>
+        <translation>Symbole</translation>
     </message>
     <message>
         <source>Hidden Volume settings</source>
-        <translation>Ustawienia głośności ukrytej</translation>
+        <translation>Ustawienia woluminów ukrytych</translation>
     </message>
     <message>
         <source>Hidden volume slot 1</source>
-        <translation>Gniazdo ukrytej głośności 1</translation>
+        <translation>Slot ukrytego woluminu 1</translation>
     </message>
     <message>
         <source>Hidden volume slot 2</source>
-        <translation>Gniazdo ukrytej głośności 2</translation>
+        <translation>Slot ukrytego woluminu 2</translation>
     </message>
     <message>
         <source>Hidden volume slot 3</source>
-        <translation>Gniazdo ukrytej głośności 3</translation>
+        <translation>Slot ukrytego woluminu 3</translation>
     </message>
     <message>
         <source>Hidden volume slot 4</source>
-        <translation>Gniazdo ukrytej głośności 4</translation>
+        <translation>Slot ukrytego woluminu 4</translation>
     </message>
     <message>
         <source>Password:</source>
@@ -1676,11 +1676,11 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>The passwords are not identical</source>
-        <translation>Hasła nie są identyczne</translation>
+        <translation>Hasła nie są identyczne w obu polach</translation>
     </message>
     <message>
         <source>Wrong size of hidden volume</source>
-        <translation>Błędny rozmiar ukrytej głośności</translation>
+        <translation>Błędny rozmiar ukrytego woluminu</translation>
     </message>
     <message>
         <source>Unit:</source>
@@ -1700,7 +1700,7 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Hidden volume not positioned in unwritten space. Please set your volume between %1% and %2% of total SD card size.</source>
-        <translation>Ukryta głośność nie jest umieszczona w niepisanym miejscu. Proszę ustawić głośność w zakresie od %1% do %2% całkowitego rozmiaru karty SD.</translation>
+        <translation>Ukryty wolumin nie jest umieszczony w niezpisanej przestrzeni. Proszę umieścić wolumin w zakresie od %1% do %2% całkowitego rozmiaru karty SD.</translation>
     </message>
     <message>
         <source>Very Weak</source>
@@ -1725,8 +1725,8 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     <message>
         <source>The unwritten area available for hidden volume
 is between %1 % and %2 % of the storage size</source>
-        <translation>Niepisany obszar dostępny dla ukrytej głośności
-wynosi od %1 % do %2 % wielkości składowania</translation>
+        <translation>Niezapisany obszar dostępny dla ukrytego woluminu
+wynosi od %1 % do %2 % całkowitego dostępnego rozmiaru</translation>
     </message>
     <message>
         <source>Storage capacity: %1GB</source>
@@ -1734,19 +1734,19 @@ wynosi od %1 % do %2 % wielkości składowania</translation>
     </message>
     <message>
         <source>Start hidden volume at %1 of the encrypted storage:</source>
-        <translation>Rozpocznij głośność ukrytą od %1 zaszyfrowanej pamięci masowej:</translation>
+        <translation>Rozpocznij ukryty wolumin od %1 zaszyfrowanej pamięci masowej:</translation>
     </message>
     <message>
         <source>End hidden volume at %1 of the encrypted storage:</source>
-        <translation>Zakończ objętość ukrytą w %1 zaszyfrowanej pamięci masowej:</translation>
+        <translation>Zakończ ukryty wolumin w %1 zaszyfrowanej pamięci masowej:</translation>
     </message>
     <message>
         <source>Hidden volume password</source>
-        <translation>Hasło ukrytej głośności</translation>
+        <translation>Hasło ukrytego woluminu</translation>
     </message>
     <message>
         <source>Please use shift+tab key shortcut for instructions</source>
-        <translation>Instrukcje obsługi można uzyskać za pomocą skrótu klawiszowego shift+tablica</translation>
+        <translation>Instrukcje można uzyskać za pomocą skrótu klawiszowego shift+TAB</translation>
     </message>
     <message>
         <source>Hidden volume password (repeated)</source>
@@ -1754,11 +1754,11 @@ wynosi od %1 % do %2 % wielkości składowania</translation>
     </message>
     <message>
         <source>Slot under which hidden volume information will be stored</source>
-        <translation>Miejsce, w którym będą przechowywane informacje o ukrytym wolumenie</translation>
+        <translation>Slot, w którym będą przechowywane informacje o ukrytym woluminie</translation>
     </message>
     <message>
         <source>Use this as hidden volume size unit</source>
-        <translation>Użyj tego jako jednostki rozmiaru głośności ukrytej</translation>
+        <translation>Użyj tego jako jednostki rozmiaru ukrytego woluminu</translation>
     </message>
     <message>
         <source>Size will be rounded down to integral percent of total storage size (%1MB)</source>
@@ -1769,11 +1769,11 @@ wynosi od %1 % do %2 % wielkości składowania</translation>
     <name>stick20LockFirmwareDialog</name>
     <message>
         <source>Lock Firmware</source>
-        <translation>Firmware do zamków</translation>
+        <translation>Zablokuj firmware</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When you select &amp;quot;OK&amp;quot; the stick lock the firmware and close the hardware debug port.This disables any external hardware access to the data in the device (processor).&lt;/p&gt;&lt;p&gt;There is no way back! &lt;/p&gt;&lt;p&gt;After this you can&apos;t update the firmware.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Po wybraniu &amp;quot;OK&amp;quot; kij zablokować firmware i zamknąć port debug sprzętowy.wyłącza to wszelki zewnętrzny dostęp sprzętowy do danych w urządzeniu (procesor).&lt;/p&gt;&lt;p&gt;Nie ma drogi powrotnej! &lt;/p&gt;&lt;p&gt;Później nie można zaktualizować oprogramowania sprzętowego.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Po wybraniu &amp;quot;OK&amp;quot; dysk USB zablokuje firmware i zamknie port debugowania.Wyłącza to wszelki zewnętrzny dostęp sprzętowy do danych w urządzeniu (procesor).&lt;/p&gt;&lt;p&gt;Nie ma drogi powrotnej! &lt;/p&gt;&lt;p&gt;Dodatkowo zablokowana zostaje możliwość aktualizacji firmware.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 </TS>
