@@ -5,7 +5,7 @@
     <name>AboutDialog</name>
     <message>
         <source>About</source>
-        <translation>Informacje</translation>
+        <translation>O programie</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This application allows you to configure and use the Nitrokey Pro and Nitrokey Storage.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -37,7 +37,7 @@
     </message>
     <message>
         <source>Hidden Volume:</source>
-        <translation>Głośność ukryta:</translation>
+        <translation>Ukryty wolumin:</translation>
     </message>
     <message>
         <source>&lt;span style=&quot;color:#c80636&quot;&gt;Warning&lt;/span&gt;</source>
@@ -46,7 +46,7 @@
     <message>
         <source>Stick is not secure!
 Select Init keys.</source>
-        <translation>Naklejka nie jest bezpieczna!
+        <translation>Pamięć USB nie jest zabezpieczona!
 Wybierz przyciski Init (Dopasuj).</translation>
     </message>
     <message>
@@ -55,19 +55,19 @@ Wybierz przyciski Init (Dopasuj).</translation>
     </message>
     <message>
         <source>(Not erased with random data)</source>
-        <translation>(Nieusunięte z danych losowych)</translation>
+        <translation>(Niewyczyszczono przy użyciu losowych danych)</translation>
     </message>
     <message>
         <source>SD ID:</source>
-        <translation>SD ID:</translation>
+        <translation>Identyfikator karty SD:</translation>
     </message>
     <message>
         <source>Unencrypted volume:</source>
-        <translation>Nieszyfrowana objętość:</translation>
+        <translation>Nieszyfrowany wolumin:</translation>
     </message>
     <message>
         <source>Encrypted volume:</source>
-        <translation>Głośność kodowana:</translation>
+        <translation>Szyfrowany wolumin:</translation>
     </message>
     <message>
         <source>Password retry counters:</source>
@@ -87,11 +87,11 @@ Wybierz przyciski Init (Dopasuj).</translation>
     </message>
     <message>
         <source>Detailed Status</source>
-        <translation>Status szczegółowy</translation>
+        <translation>Szczegółowy status</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>
@@ -109,7 +109,7 @@ Smartcard is not accessible
 
 </source>
         <translation>
-Smartcard is inaccessible
+Karta inteligentna jest niedostępna
 
 </translation>
     </message>
@@ -121,15 +121,15 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>READ/WRITE</source>
-        <translation>READ/WRITE</translation>
+        <translation>ODCZYT/ZAPIS</translation>
     </message>
     <message>
         <source>READ ONLY</source>
-        <translation>przeczytany</translation>
+        <translation>TYLKO DO ODCZYTU</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>aktywny</translation>
+        <translation>Aktywny</translation>
     </message>
     <message>
         <source>(hidden)</source>
@@ -157,11 +157,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Licenses and 3rd-party components</source>
-        <translation>Licencje i podzespoły osób trzecich</translation>
+        <translation>Licencje i komponenty firm trzecich</translation>
     </message>
     <message>
         <source>      *** Clearing data in progress ***</source>
-        <translation>      *** Trwające rozliczanie danych ***</translation>
+        <translation>      *** Usuwanie danych w toku ***</translation>
     </message>
     <message>
         <source>      *** Communication error ***</source>
@@ -169,7 +169,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>      *** Firmware is locked ***</source>
-        <translation>      *** Firmware jest zablokowany. ***</translation>
+        <translation>      *** Firmware jest zablokowany ***</translation>
     </message>
     <message>
         <source>Cannot open dialog: </source>
@@ -187,7 +187,7 @@ Spróbuj ponownie</translation>
     <name>DebugDialog</name>
     <message>
         <source>Debug Log</source>
-        <translation>Dziennik debug</translation>
+        <translation>Dziennik debugowania</translation>
     </message>
 </context>
 <context>
@@ -198,11 +198,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Show PIN</source>
-        <translation>Show PIN</translation>
+        <translation>Pokaż kod PIN</translation>
     </message>
     <message>
         <source>Retry count left:</source>
-        <translation>Liczba wierszy na lewo:</translation>
+        <translation>Pozostała liczba prób:</translation>
     </message>
     <message>
         <source>Change Firmware Password</source>
@@ -210,15 +210,15 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Unfortunately you have no more trials left. Please use &apos;Reset User PIN&apos; option from menu to reset password</source>
-        <translation>Niestety nie ma już więcej prób. Użyj opcji &quot;Resetuj PIN użytkownika&quot; z menu, aby zresetować hasło</translation>
+        <translation>Niestety, nie masz już więcej prób podania hasła. Użyj opcji &quot;Resetuj kod PIN użytkownika&quot; z menu, aby zresetować hasło</translation>
     </message>
     <message>
         <source>Unfortunately you have no more trials left. Please check instruction how to reset Admin password.</source>
-        <translation>Niestety nie ma już więcej prób. Zapoznaj się z instrukcją resetowania hasła administratora.</translation>
+        <translation>Niestety, nie masz już więcej prób podania hasła. Zapoznaj się z instrukcją resetowania hasła administratora.</translation>
     </message>
     <message>
         <source>Set User PIN</source>
-        <translation>Ustawić kod PIN użytkownika</translation>
+        <translation>Ustaw kod PIN użytkownika</translation>
     </message>
     <message>
         <source>Current User PIN:</source>
@@ -230,11 +230,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Set Admin PIN</source>
-        <translation>Ustaw PIN administratora</translation>
+        <translation>Ustaw kod PIN administratora</translation>
     </message>
     <message>
         <source>Current Admin PIN:</source>
-        <translation>Kod PIN administratora:</translation>
+        <translation>Aktualny kod PIN administratora:</translation>
     </message>
     <message>
         <source>Reset User PIN</source>
@@ -242,7 +242,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Current Firmware Password:</source>
-        <translation>Aktualne Hasło firmware&apos;u:</translation>
+        <translation>Aktualne hasło firmware&apos;u:</translation>
     </message>
     <message>
         <source>Show password</source>
@@ -254,7 +254,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>New password is set</source>
-        <translation>Ustawiane jest nowe hasło</translation>
+        <translation>Nowe hasło zostało ustawione</translation>
     </message>
     <message>
         <source>The minimum length of the old password is </source>
@@ -262,7 +262,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source> chars</source>
-        <translation> kleszcze</translation>
+        <translation> znaki/ów</translation>
     </message>
     <message>
         <source>The maximum length of a password is </source>
@@ -274,7 +274,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Device is not yet initialized. Please try again later.</source>
-        <translation>Urządzenie nie jest jeszcze inicjalizowane. Spróbuj ponownie później.</translation>
+        <translation>Urządzenie nie jest jeszcze gotowe. Spróbuj ponownie później.</translation>
     </message>
     <message>
         <source>The new password entries are not the same</source>
@@ -294,11 +294,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>New PIN:</source>
-        <translation>Nowy PIN:</translation>
+        <translation>Nowy kod PIN:</translation>
     </message>
     <message>
         <source>Confirm New PIN:</source>
-        <translation>Potwierdź nowy PIN:</translation>
+        <translation>Potwierdź nowy kod PIN:</translation>
     </message>
     <message>
         <source>Confirm New User PIN:</source>
@@ -314,7 +314,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>The Firmware password doesn’t have a retry counter, and therefore doesn’t prevent against password guessing attacks. A secure and complex password should be created with the use of: lower and upper case letters, numbers and special characters; with a length between %2 and %3 characters.&lt;br/&gt;Default firmware password is: &apos;%1&apos;.</source>
-        <translation>Hasło Firmware nie posiada licznika ponownych prób i dlatego nie zapobiega odgadywaniu ataków przez hasło. Hasło bezpieczne i złożone należy tworzyć za pomocą: małych i dużych liter, cyfr i znaków specjalnych; o długości od %2 do %3 znaków. &lt;br/&gt;Domyślnym hasłem firmware jest: &apos;%1&apos;.</translation>
+        <translation>Hasło firmware nie posiada licznika ponownych prób, dlatego nie zapobiega odgadywania hasła metodą słownikową. Hasło bezpieczne i złożone należy tworzyć za pomocą: małych i dużych liter, cyfr i znaków specjalnych; o długości od %2 do %3 znaków. &lt;br/&gt;Domyślnym hasłem firmware jest: &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>WARNING! If you lose your Firmware password, Nitrokey can’t be updated or reset!</source>
@@ -325,7 +325,7 @@ Spróbuj ponownie</translation>
     <name>LicenseDialog</name>
     <message>
         <source>License information (ESC to Exit)</source>
-        <translation>Informacje o licencji (ESC do Exit)</translation>
+        <translation>Informacje o licencji (ESC aby wyjść)</translation>
     </message>
 </context>
 <context>
@@ -336,7 +336,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Manage slots</source>
-        <translation>Zarządzanie przydziałami czasu na start lub lądowanie</translation>
+        <translation>Zarządzanie slotami</translation>
     </message>
     <message>
         <source>TOTP</source>
@@ -348,11 +348,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Slot:</source>
-        <translation>Gniazdo:</translation>
+        <translation>Slot:</translation>
     </message>
     <message>
         <source>Erase Slot</source>
-        <translation>Gniazdo kasowania</translation>
+        <translation>Wykasuj zawartość slota</translation>
     </message>
     <message>
         <source>Name:</source>
@@ -364,7 +364,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The secret is provided by your service provider you may want to login or can be configured in your local application which you may want to login to.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tajemnica jest zapewniona przez usługodawcę, do którego chcesz się zalogować lub który można skonfigurować w aplikacji lokalnej, do której możesz się zalogować.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Klucz tajny jest dostarczany przez usługodawcę, do którego chcesz się zalogować lub który można skonfigurować w aplikacji lokalnej, do której możesz się zalogować.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Secret Key:</source>
@@ -372,11 +372,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>********************************</source>
-        <translation>********************************</translation>
+        <translation>****************************</translation>
     </message>
     <message>
         <source>Secret copied to clipboard</source>
-        <translation>Tajne kopiowanie do schowka</translation>
+        <translation>Hasło skopiowano do schowka</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide or show the secret.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -384,11 +384,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Hide secret</source>
-        <translation>Tajemnica ukrycia</translation>
+        <translation>Ukryj hasło</translation>
     </message>
     <message>
         <source>Generate random secret</source>
-        <translation>Generuje tajemnicę losową</translation>
+        <translation>Wygeneruj losowe hasło</translation>
     </message>
     <message>
         <source>Input format:</source>
@@ -396,15 +396,15 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Hex</source>
-        <translation>Sześć</translation>
+        <translation>Heksadecymalny</translation>
     </message>
     <message>
         <source>Note: 2&lt;sup&gt;nd&lt;/sup&gt; factors aren&apos;t protected against physical attacks. Change all OTP secrets in case you loose the Nitrokey.</source>
-        <translation>Uwaga: Czynniki 2&lt;sup&gt;nd&lt;/sup&gt; nie są chronione przed atakami fizycznymi. Zmienić wszystkie sekrety OTP w przypadku utraty przycisku Nitrokey.</translation>
+        <translation>Uwaga: Czynniki 2&lt;sup&gt;nd&lt;/sup&gt; nie są chronione przed atakami fizycznymi. Zmień wszystkie hasła OTP w przypadku utraty Nitrokey.</translation>
     </message>
     <message>
         <source>Parameters</source>
-        <translation>Właściwości</translation>
+        <translation>Parametry</translation>
     </message>
     <message>
         <source>Set to zero</source>
@@ -412,7 +412,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Set to random</source>
-        <translation>Ustawienie na losowe</translation>
+        <translation>Ustawionie na losowe</translation>
     </message>
     <message>
         <source>6 digits</source>
@@ -424,15 +424,15 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Moving factor seed:</source>
-        <translation>Materiał siewny o czynniku ruchomym:</translation>
+        <translation></translation>
     </message>
     <message>
         <source>HOTP length:</source>
-        <translation>HOTP dlugość:</translation>
+        <translation>Długość HOTP:</translation>
     </message>
     <message>
         <source>TOTP interval:</source>
-        <translation>TOTP przerwa:</translation>
+        <translation>Interwał TOTP:</translation>
     </message>
     <message>
         <source>Token ID</source>
@@ -480,7 +480,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>OTP General</source>
-        <translation>Ogólne OTP</translation>
+        <translation>Ogólne ustawienia OTP</translation>
     </message>
     <message>
         <source>OTP Password settings</source>
@@ -496,11 +496,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Double press ScrollLock:</source>
-        <translation>Dwukrotne naciśnięcie przycisku ScrollLock:</translation>
+        <translation>Dwukrotne naciśnięcie ScrollLock:</translation>
     </message>
     <message>
         <source>Do nothing</source>
-        <translation>Nie robić nic</translation>
+        <translation>Nie rób nic</translation>
     </message>
     <message>
         <source>Send HOTP1</source>
@@ -520,11 +520,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Login name:</source>
-        <translation>Nazwa logowania:</translation>
+        <translation>Nazwa do logowania:</translation>
     </message>
     <message>
         <source>Slot name:</source>
-        <translation>Nazwa szczeliny czytnika:</translation>
+        <translation>Nazwa slota:</translation>
     </message>
     <message>
         <source>Static password 0</source>
@@ -532,11 +532,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Generate random password</source>
-        <translation>Generować hasło losowe</translation>
+        <translation>Generuj hasło losowe</translation>
     </message>
     <message>
         <source>Characters left:</source>
-        <translation>Pozostały znaki:</translation>
+        <translation>Pozostało znaków:</translation>
     </message>
     <message>
         <source>...</source>
@@ -552,7 +552,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Nitrokey disconnected</source>
-        <translation>Odłączony nitrokey</translation>
+        <translation>Nitrokey odłączony</translation>
     </message>
     <message>
         <source>Nitrokey Pro connected</source>
@@ -560,23 +560,23 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Nitrokey Storage connected</source>
-        <translation>Nitrokey Storage connected</translation>
+        <translation>Nitrokey Storage podłączony</translation>
     </message>
     <message>
         <source>Counter value not copied - there was an error in conversion. Setting counter value to 0. Please retry.</source>
-        <translation>Wartość licznika nie została skopiowana - wystąpił błąd w konwersji. Ustawienie wartości licznika na 0.</translation>
+        <translation>Wartość licznika nie została skopiowana - wystąpił błąd w konwersji. Licznik został ustawiony na 0. Proszę spróbować ponownie.</translation>
     </message>
     <message>
         <source>TOTP length:</source>
-        <translation>TOTP dlugość:</translation>
+        <translation> Długość TOTP:</translation>
     </message>
     <message>
         <source>Wrong PIN. Please try again.</source>
-        <translation>Nieprawidłowy PIN. Spróbuj ponownie.</translation>
+        <translation>Nieprawidłowy kod PIN. Spróbuj ponownie.</translation>
     </message>
     <message>
         <source>Wrong Pin. Please try again.</source>
-        <translation>Wrong PIN. Please try again.</translation>
+        <translation>Nieprawidłowy kod PIN. Spróbuj ponownie.</translation>
     </message>
     <message>
         <source>Factory reset was successful.</source>
@@ -592,7 +592,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>For Nitrokey Storage counter must be a value between 0 and 9999999</source>
-        <translation>W przypadku Nitrokey Licznik pamięci masowej musi wynosić od 0 do 9999999</translation>
+        <translation>W przypadku Nitrokey Storage licznik pamięci masowej musi wynosić od 0 do 9999999</translation>
     </message>
     <message>
         <source>Please enter a slotname.</source>
@@ -604,7 +604,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Error writing configuration!</source>
-        <translation>Konfiguracja zapisu błędów!</translation>
+        <translation>Błąd podczas próby zapisu konfiguracji!</translation>
     </message>
     <message>
         <source>Nitrokey is not connected!</source>
@@ -616,23 +616,23 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>WARNING: Are you sure you want to erase the slot?</source>
-        <translation>OSTRZEŻENIE: Czy jesteś pewien, że chcesz usunąć slot?</translation>
+        <translation>OSTRZEŻENIE: Czy jesteś pewien, że chcesz wyczyścić slot?</translation>
     </message>
     <message>
         <source>Slot has been erased successfully.</source>
-        <translation>Szczelina została pomyślnie skasowana.</translation>
+        <translation>Slot został pomyślnie wyczyszczony.</translation>
     </message>
     <message>
         <source>Slot </source>
-        <translation>Gniazdo </translation>
+        <translation>Slot</translation>
     </message>
     <message>
         <source>Can&apos;t clear slot.</source>
-        <translation>Nie można usunąć szczeliny.</translation>
+        <translation>Nie można wyczyścić slota.</translation>
     </message>
     <message>
         <source>Slot is erased already.</source>
-        <translation>Szczelina jest już usunięta.</translation>
+        <translation>Slot jest już wyczyszczony.</translation>
     </message>
     <message>
         <source>Please enter a password.</source>
@@ -644,11 +644,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Generate random password </source>
-        <translation>Generować hasło losowe </translation>
+        <translation>Generuj hasło losowe </translation>
     </message>
     <message>
         <source>Time is out-of-sync</source>
-        <translation>Czas jest poza zasięgiem synchronizacji</translation>
+        <translation>Czas nie jest synchronizowany</translation>
     </message>
     <message>
         <source>WARNING!
@@ -658,35 +658,35 @@ The time of your computer and Nitrokey are out of sync. Your computer may be con
 Reset Nitrokey&apos;s time?</source>
         <translation>OSTRZEŻENIE!
 
-Czas komputera i przycisk Nitrokey nie są zsynchronizowane. Komputer może być skonfigurowany w niewłaściwym czasie lub Nitrokey mógł zostać zaatakowany. Jeśli atakujący lub złośliwe oprogramowanie mogło użyć Nitrokeya, powinieneś zresetować sekrety skonfigurowanych haseł jednorazowych. Jeśli czas komputera jest nieprawidłowy, należy go poprawnie skonfigurować i zresetować czas Nitrokeya.
+Czas komputera i klucz Nitrokey nie są zsynchronizowane. Komputer może być skonfigurowany przy użyciu niewłaściwej strefy czasowej lub mogła wystąpić próba dostępu do Nitrokey. Jeśli atakujący lub złośliwe oprogramowanie mogło użyć Nitrokey, powinieneś zresetować hasła skonfigurowanych OTP. Jeśli czas komputera jest nieprawidłowy, należy go poprawnie skonfigurować i zresetować czas w Nitrokey.
 
-Zresetuj czas Nitrokeya?</translation>
+Zresetować czas w Nitrokey?</translation>
     </message>
     <message>
         <source>Time reset!</source>
-        <translation>Czas zresetowany!</translation>
+        <translation>Czas został zresetowany!</translation>
     </message>
     <message>
         <source>Nitrokey connected</source>
-        <translation>Podłączony nitrokey</translation>
+        <translation>Nitrokey został podłączony</translation>
     </message>
     <message>
         <source>Warning: Encrypted volume is not secure,
 Select &quot;Initialize storage with random data&quot;</source>
-        <translation>Ostrzeżenie: Zaszyfrowana głośność nie jest bezpieczna,
-Wybierz opcję &quot;Inicjuj przechowywanie danych losowych&quot;</translation>
+        <translation>Ostrzeżenie: Zaszyfrowany wolumin nie jest bezpieczny,
+Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translation>
     </message>
     <message>
         <source>TOTP slot </source>
-        <translation>TOTP gniazdo </translation>
+        <translation>Slot TOTP </translation>
     </message>
     <message>
         <source>HOTP slot </source>
-        <translation>HOTP gniazdo </translation>
+        <translation>SLot HOTP </translation>
     </message>
     <message>
         <source>Can&apos;t unlock password safe.</source>
-        <translation>Nie można odblokować hasła bezpiecznie.</translation>
+        <translation>Nie można odblokować hasła w sposób bezpieczny.</translation>
     </message>
     <message>
         <source>Wrong user password.</source>
