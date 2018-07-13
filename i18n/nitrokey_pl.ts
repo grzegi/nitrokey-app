@@ -63,11 +63,11 @@ Wybierz przyciski Init (Dopasuj).</translation>
     </message>
     <message>
         <source>Unencrypted volume:</source>
-        <translation>Nieszyfrowany wolumin:</translation>
+        <translation>Niezaszyfrowany wolumin:</translation>
     </message>
     <message>
         <source>Encrypted volume:</source>
-        <translation>Szyfrowany wolumin:</translation>
+        <translation>Zaszyfrowany wolumin:</translation>
     </message>
     <message>
         <source>Password retry counters:</source>
@@ -143,7 +143,7 @@ Spróbuj ponownie</translation>
         <source>No active Nitrokey
 
 </source>
-        <translation>Brak aktywnego Nitrokey
+        <translation>Brak aktywnego klucza Nitrokey
 
 </translation>
     </message>
@@ -169,7 +169,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>      *** Firmware is locked ***</source>
-        <translation>      *** Firmware jest zablokowany ***</translation>
+        <translation>      *** Firmware jest zablokowane ***</translation>
     </message>
     <message>
         <source>Cannot open dialog: </source>
@@ -210,7 +210,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Unfortunately you have no more trials left. Please use &apos;Reset User PIN&apos; option from menu to reset password</source>
-        <translation>Niestety, nie masz już więcej prób podania hasła. Użyj opcji &quot;Resetuj kod PIN użytkownika&quot; z menu, aby zresetować hasło</translation>
+        <translation>Niestety, nie masz już więcej prób podania hasła. Użyj opcji &quot;Resetowanie kodu PIN użytkownika&quot; z menu, aby zresetować hasło</translation>
     </message>
     <message>
         <source>Unfortunately you have no more trials left. Please check instruction how to reset Admin password.</source>
@@ -278,7 +278,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>The new password entries are not the same</source>
-        <translation>Nowe hasło nie jest takie samo</translation>
+        <translation>Nowe hasło nie jest takie samo w obu polach</translation>
     </message>
     <message>
         <source>Current PIN or password</source>
@@ -290,7 +290,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Nitrokey prevents against brute force password guessing attacks by allowing a maximum of 3 incorrect PIN attempts. Therefore a PIN of %1 digits is sufficient. The PIN must be between %1 and %2 characters.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Nitrokey zapobiega odgadywaniu ataków przy użyciu hasła Brute Force, pozwalając na maksymalnie 3 nieprawidłowe próby PIN.  W związku z tym wystarczy kod PIN składający się z %1cyfr. Kod PIN musi zawierać od %1 do %2 znaków.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Nitrokey zapobiega odgadywaniu ataków przy użyciu metody Brute Force, pozwalając na maksymalnie 3 nieprawidłowe próby podania kodu PIN, w  związku z tym wystarczy kod PIN składający się z %1cyfr. Kod PIN musi zawierać od %1 do %2 znaków.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>New PIN:</source>
@@ -314,18 +314,18 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>The Firmware password doesn’t have a retry counter, and therefore doesn’t prevent against password guessing attacks. A secure and complex password should be created with the use of: lower and upper case letters, numbers and special characters; with a length between %2 and %3 characters.&lt;br/&gt;Default firmware password is: &apos;%1&apos;.</source>
-        <translation>Hasło firmware nie posiada licznika ponownych prób, dlatego nie zapobiega odgadywania hasła metodą słownikową. Hasło bezpieczne i złożone należy tworzyć za pomocą: małych i dużych liter, cyfr i znaków specjalnych; o długości od %2 do %3 znaków. &lt;br/&gt;Domyślnym hasłem firmware jest: &apos;%1&apos;.</translation>
+        <translation>Hasło firmware nie posiada licznika ponownych prób, dlatego nie zapobiega odgadywania hasła metodą Brute Force. Hasło bezpieczne i złożone należy tworzyć za pomocą: małych i dużych liter, cyfr i znaków specjalnych; o długości od %2 do %3 znaków. &lt;br/&gt;Domyślnym hasłem firmware jest: &apos;%1&apos;.</translation>
     </message>
     <message>
         <source>WARNING! If you lose your Firmware password, Nitrokey can’t be updated or reset!</source>
-        <translation>WARNING! W przypadku utraty hasła firmware&apos;u nie można zaktualizować ani zresetować Nitrokey&apos;a!</translation>
+        <translation>WARNING! W przypadku utraty hasła do firmware&apos;u nie można zaktualizować ani zresetować Nitrokey&apos;a!</translation>
     </message>
 </context>
 <context>
     <name>LicenseDialog</name>
     <message>
         <source>License information (ESC to Exit)</source>
-        <translation>Informacje o licencji (ESC aby wyjść)</translation>
+        <translation>Informacje o licencji (ESC aby zamknąć)</translation>
     </message>
 </context>
 <context>
@@ -376,7 +376,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Secret copied to clipboard</source>
-        <translation>Hasło skopiowano do schowka</translation>
+        <translation>Klucz tajny skopiowano do schowka</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hide or show the secret.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -384,11 +384,11 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Hide secret</source>
-        <translation>Ukryj hasło</translation>
+        <translation>Ukryj klucz tajny</translation>
     </message>
     <message>
         <source>Generate random secret</source>
-        <translation>Wygeneruj losowe hasło</translation>
+        <translation>Wygeneruj losowy klucz tajny</translation>
     </message>
     <message>
         <source>Input format:</source>
@@ -399,8 +399,8 @@ Spróbuj ponownie</translation>
         <translation>Heksadecymalny</translation>
     </message>
     <message>
-        <source>Note: 2&lt;sup&gt;nd&lt;/sup&gt; factors aren&apos;t protected against physical attacks. Change all OTP secrets in case you loose the Nitrokey.</source>
-        <translation>Uwaga: Czynniki 2&lt;sup&gt;nd&lt;/sup&gt; nie są chronione przed atakami fizycznymi. Zmień wszystkie hasła OTP w przypadku utraty Nitrokey.</translation>
+        <source>Note: 2&lt;sup&gt;nd&lt;/sup&gt; aren&apos;t protected against physical attacks. Change all OTP secrets in case you loose the Nitrokey.</source>
+        <translation>Uwaga: Dwuskładnikowe uwierzytelnianie nie jest odporne na atakami fizyczne. Zmień wszystkie klucze tajne OTP w przypadku utraty Nitrokey.</translation>
     </message>
     <message>
         <source>Parameters</source>
@@ -520,7 +520,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Login name:</source>
-        <translation>Nazwa do logowania:</translation>
+        <translation>Nazwa używana do logowania:</translation>
     </message>
     <message>
         <source>Slot name:</source>
@@ -544,7 +544,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Password Safe fields support UTF8 data. It means that you can use your national characters here. Please remember however that non-English characters could take more space (up to 4 characters). The counters next to each field are to inform how much more standard English characters can given field accept.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hasło Pola Safe obsługują dane UTF8. Oznacza to, że można tu używać znaków narodowych. Pamiętaj jednak, że znaki nieangielskie mogą zajmować więcej miejsca (do 4 znaków). Liczniki znajdujące się obok każdego pola informują o tym, o ile więcej standardowych znaków angielskich może być akceptowanych w danym polu.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hasło Pola haseł obsługują dane UTF8. Oznacza to, że można tu używać znaków narodowych. Pamiętaj jednak, że znaki nieangielskie mogą zajmować więcej miejsca (do 4 znaków). Liczniki znajdujące się obok każdego pola informują o tym, o ile więcej standardowych znaków angielskich może być akceptowanych w danym polu.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Unlock password safe</source>
@@ -552,15 +552,15 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Nitrokey disconnected</source>
-        <translation>Nitrokey odłączony</translation>
+        <translation> Klucz Nitrokey odłączony</translation>
     </message>
     <message>
         <source>Nitrokey Pro connected</source>
-        <translation>Nitrokey Pro podłączony</translation>
+        <translation>Klucz Nitrokey Pro podłączony</translation>
     </message>
     <message>
         <source>Nitrokey Storage connected</source>
-        <translation>Nitrokey Storage podłączony</translation>
+        <translation>Klucz Nitrokey Storage podłączony</translation>
     </message>
     <message>
         <source>Counter value not copied - there was an error in conversion. Setting counter value to 0. Please retry.</source>
@@ -592,7 +592,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>For Nitrokey Storage counter must be a value between 0 and 9999999</source>
-        <translation>W przypadku Nitrokey Storage licznik pamięci masowej musi wynosić od 0 do 9999999</translation>
+        <translation>W przypadku klucza Nitrokey Storage licznik pamięci masowej musi wynosić od 0 do 9999999</translation>
     </message>
     <message>
         <source>Please enter a slotname.</source>
@@ -632,7 +632,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Slot is erased already.</source>
-        <translation>Slot jest już wyczyszczony.</translation>
+        <translation>Slot został już wyczyszczony.</translation>
     </message>
     <message>
         <source>Please enter a password.</source>
@@ -644,7 +644,7 @@ Spróbuj ponownie</translation>
     </message>
     <message>
         <source>Generate random password </source>
-        <translation>Generuj hasło losowe </translation>
+        <translation>Wyeneruj losowe hasło </translation>
     </message>
     <message>
         <source>Time is out-of-sync</source>
@@ -658,9 +658,9 @@ The time of your computer and Nitrokey are out of sync. Your computer may be con
 Reset Nitrokey&apos;s time?</source>
         <translation>OSTRZEŻENIE!
 
-Czas komputera i klucz Nitrokey nie są zsynchronizowane. Komputer może być skonfigurowany przy użyciu niewłaściwej strefy czasowej lub mogła wystąpić próba dostępu do Nitrokey. Jeśli atakujący lub złośliwe oprogramowanie mogło użyć Nitrokey, powinieneś zresetować hasła skonfigurowanych OTP. Jeśli czas komputera jest nieprawidłowy, należy go poprawnie skonfigurować i zresetować czas w Nitrokey.
+Czas komputera i klucz Nitrokey nie są zsynchronizowane. Komputer może być skonfigurowany przy użyciu niewłaściwej strefy czasowej lub mogła wystąpić próba dostępu do klucza Nitrokey. Jeśli atakujący lub złośliwe oprogramowanie mogło użyć klucza Nitrokey, powinieneś zresetować hasła skonfigurowanych OTP. Jeśli czas komputera jest nieprawidłowy, należy go poprawnie skonfigurować i zresetować czas w kluczu Nitrokey.
 
-Zresetować czas w Nitrokey?</translation>
+Zresetować czas w kluczu Nitrokey?</translation>
     </message>
     <message>
         <source>Time reset!</source>
@@ -668,7 +668,7 @@ Zresetować czas w Nitrokey?</translation>
     </message>
     <message>
         <source>Nitrokey connected</source>
-        <translation>Nitrokey został podłączony</translation>
+        <translation>Klucz Nitrokey został podłączony</translation>
     </message>
     <message>
         <source>Warning: Encrypted volume is not secure,
@@ -698,11 +698,11 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>Protect OTP by user PIN (will be requested on first use each session)</source>
-        <translation>Chroń OTP kodem PIN użytkownika (będzie wymagany przy pierwszym użyciu każdej sesji)</translation>
+        <translation>Chroń OTP kodem PIN użytkownika (będzie wymagany przy pierwszym użyciu pocdczas każdej sesji)</translation>
     </message>
     <message>
         <source>Forget user PIN after 10 minutes (if unchecked user PIN will remain in memory until application exits)</source>
-        <translation>Zapomnij kodu PIN użytkownika po 10 minutach (jeśli nie jest zaznaczony, PIN użytkownika pozostanie w pamięci do momentu zamknięcia aplikacji)</translation>
+        <translation>Zapomnij kodu PIN użytkownika po 10 minutach (jeśli opcja nie jest zaznaczona, kod PIN użytkownika pozostanie w pamięci do momentu zamknięcia aplikacji)</translation>
     </message>
     <message>
         <source>Command execution failed. Please try again.</source>
@@ -710,51 +710,51 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>To handle this functionality application will keep your user PIN in memory. Do you want to continue?</source>
-        <translation>Aby obsłużyć tę funkcję, aplikacja zachowa Twój kod PIN użytkownika w pamięci. Chcesz kontynuować?</translation>
+        <translation>Aby obsłużyć tę funkcję, aplikacja zachowa kod PIN użytkownika w pamięci. Chcesz kontynuować?</translation>
     </message>
     <message>
         <source>Nitrokey Pro v0.7 does not support secrets starting from null byte. Please change the secret.</source>
-        <translation>Nitrokey Pro v0.7 nie obsługuje sekretów zaczynających się od bajtu zerowego. Proszę zmienić tajemnicę.</translation>
+        <translation>Nitrokey Pro w wersji v0.7 nie obsługuje haseł zaczynających się od bajtu zerowego. Proszę zmienić hasło.</translation>
     </message>
     <message>
         <source>Your secret is invalid. Please change the secret.</source>
-        <translation>Twoja tajemnica jest nieważna. Proszę zmienić tajemnicę.</translation>
+        <translation>Twoje tajne hasło jest nieważne. Proszę je zmienić.</translation>
     </message>
     <message>
         <source>Slot successfully written.</source>
-        <translation>Udane wpisanie czasu na start lub lądowanie.</translation>
+        <translation>Slot został poprawnie zapisany.</translation>
     </message>
     <message>
         <source>Select slot type: TOTP</source>
-        <translation>Wybrać typ szczeliny: OTP</translation>
+        <translation>Wybierz typ slota: TOTP</translation>
     </message>
     <message>
         <source>Select slot type: HOTP</source>
-        <translation>Wybrać typ szczeliny: HOTP</translation>
+        <translation>Wybierz typ slota: HOTP</translation>
     </message>
     <message>
         <source>Select OTP slot number</source>
-        <translation>Wybrać typ szczeliny: OTP</translation>
+        <translation>Wybierz numer slota OTP</translation>
     </message>
     <message>
         <source>Slot name</source>
-        <translation>Nazwa szczeliny czytnika</translation>
+        <translation>Nazwa slota</translation>
     </message>
     <message>
         <source>The secret is provided by your service provider you may want to login or can be configured in your local application which you may want to login to.</source>
-        <translation>Tajemnica jest zapewniona przez usługodawcę, do którego chcesz się zalogować lub który można skonfigurować w aplikacji lokalnej, do której chcesz się zalogować.</translation>
+        <translation>Tajne hasło jest dostarczane przez usługodawcę, do którego chcesz się zalogować lub którego można skonfigurować w aplikacji lokalnej, do której chcesz się zalogować.</translation>
     </message>
     <message>
         <source>OTP secret key</source>
-        <translation>Klucz tajny OTP</translation>
+        <translation>Tajny klucz OTP</translation>
     </message>
     <message>
         <source>Note: 2nd factors aren&apos;t protected against physical attacks. Change all OTP secrets in case you loose the Nitrokey.</source>
-        <translation>Uwaga: 2. czynniki nie są chronione przed atakami fizycznymi. Zmienić wszystkie sekrety OTP w przypadku utraty przycisku Nitrokey.</translation>
+        <translation>Uwaga: Dwuskładnikowe uwierzytelnianie nie jest odporne na ataki fizyczne. Zmień wszystkie hasła OTP w przypadku utraty klucza Nitrokey.</translation>
     </message>
     <message>
         <source>After generating a random secret, you would need to copy it into your application or service where you want to login to.</source>
-        <translation>Po wygenerowaniu przypadkowej tajemnicy, musisz skopiować ją do aplikacji lub usługi, do której chcesz się zalogować.</translation>
+        <translation>Po wygenerowaniu tajnego hasła, musisz skopiować je do aplikacji lub usługi, do której chcesz się zalogować.</translation>
     </message>
     <message>
         <source>Example: &quot;ZR3M5I...&quot;</source>
@@ -762,7 +762,7 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>Secret input format: base32</source>
-        <translation>Format tajnego wprowadzania danych: base32</translation>
+        <translation>Format wprowadzanych danych: base32</translation>
     </message>
     <message>
         <source>Example: &quot;A3911C05...&quot; (remove any 0x prefix)</source>
@@ -770,19 +770,19 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>Secret input format: hex</source>
-        <translation>Secret input format: hex</translation>
+        <translation>Wybierz format danych wyjściowych: Heksadecymalny</translation>
     </message>
     <message>
         <source>Entered OTP &apos;Secret Key&apos; string is longer than supported by this device</source>
-        <translation>Wpisany łańcuch OTP &apos;Sekretny klucz&apos; jest dłuższy niż obsługiwany przez to urządzenie</translation>
+        <translation>Wpisany tajny klucz OTP jest dłuższy niż obsługiwane przez to urządzenie</translation>
     </message>
     <message>
         <source>Label shown when the OTP secret key is too long</source>
-        <translation>Etykieta jest wyświetlana, gdy klucz tajny OTP jest zbyt długi</translation>
+        <translation>Etykieta jest wyświetlana, gdy tajny klucz OTP jest zbyt długi</translation>
     </message>
     <message>
         <source>HOTP moving factor seed</source>
-        <translation>Materiał siewny czynnika ruchomego HOTP</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Set HOTP counter to zero</source>
@@ -806,15 +806,15 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>OMP part of Token ID</source>
-        <translation>OMP część tokena ID</translation>
+        <translation>Część OMP identyfikatora tokena</translation>
     </message>
     <message>
         <source>TT part of Token ID</source>
-        <translation>TT część tokena ID</translation>
+        <translation>Część TT identyfikatora tokena</translation>
     </message>
     <message>
         <source>MUI part of Token ID</source>
-        <translation>MUI część tokena ID</translation>
+        <translation>Część MUI identyfikatora tokena</translation>
     </message>
     <message>
         <source>Settings for inserting HOTP code through special key shortcut (USB-Keyboard only)</source>
@@ -822,39 +822,39 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>Erase Password Safe slot</source>
-        <translation>Usuń hasło Bezpieczne gniazdo</translation>
+        <translation>Usuń bezpiecznie hasło ze slotu</translation>
     </message>
     <message>
         <source>Password Safe slot number</source>
-        <translation>Hasło Numer bezpiecznego slotu</translation>
+        <translation>Numer slotu bezpiecznego hasła</translation>
     </message>
     <message>
         <source>Unlock Password Safe</source>
-        <translation>Bezpieczne hasło odblokowujące</translation>
+        <translation>Odblokuj bezpieczne hasło</translation>
     </message>
     <message>
         <source>The Nitrokey App is available as an icon in the tray bar.</source>
-        <translation>Aplikacja Nitrokey App jest dostępna jako ikona na pasku zasobników.</translation>
+        <translation>Aplikacja Nitrokey jest dostępna jako ikona na pasku zasobnika systemowego.</translation>
     </message>
     <message>
         <source>The secret string you have entered is invalid. Please reenter it.</source>
-        <translation>Wprowadzony tajny łańcuch jest nieprawidłowy. Prosimy o ponowne wprowadzenie danych.</translation>
+        <translation>Wprowadzony tajny klucz jest nieprawidłowy. Wprowadź go ponownie.</translation>
     </message>
     <message>
         <source>&lt;Select Password Safe slot&gt;</source>
-        <translation>&lt;Wybierz Bezpieczne Gniazdo na Hasło&gt;</translation>
+        <translation>&lt;Wybierz slot bezpiecznego hasła</translation>
     </message>
     <message>
         <source>Password safe unlocked</source>
-        <translation>Bezpieczne odblokowanie hasła</translation>
+        <translation>Bezpieczne hasło odblokowane</translation>
     </message>
     <message>
         <source>AES keys not initialized. Please provide Admin PIN.</source>
-        <translation>Klawisze AES nie są inicjalizowane. Prosimy o podanie kodu PIN administratora.</translation>
+        <translation>Klucze AES nie są zainicjowane. Podaj kod PIN administratora</translation>
     </message>
     <message>
         <source>Keys generated. Please unlock Password Safe again.</source>
-        <translation>Generowane klucze. Ponownie odblokuj hasło Bezpieczne.</translation>
+        <translation>Klucze zostały pomyślnie wygenerowane. Ponownie odblokuj bezpieczne hasło.</translation>
     </message>
     <message>
         <source>Wrong admin password.</source>
@@ -862,32 +862,32 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>User not authenticated</source>
-        <translation>Użytkownik, który nie jest uwierzytelniony</translation>
+        <translation>Użytkownik nie został uwierzytelniony</translation>
     </message>
     <message>
         <source>Reset Nitrokey&apos;s time?</source>
-        <translation>Zresetuj czas Nitrokeya?</translation>
+        <translation>Zresetować czas w kluczu Nitrokey?</translation>
     </message>
     <message>
         <source>Locking device</source>
-        <translation>Urządzenie blokujące</translation>
+        <translation>Zabezpieczanie urządzenia</translation>
     </message>
     <message>
         <source>Connecting device</source>
-        <translation>Urządzenie łączące</translation>
+        <translation>Podłączanie urządzenia</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#a40000;&quot;&gt;Entered OTP &apos;Secret Key&apos; string is longer than supported by this device&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <extracomment>Label shown when the OTP secret key is too long</extracomment>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#a40000;&quot;&gt;Wpisany łańcuch OTP &apos;Sekretny klucz&apos; jest dłuższy niż obsługiwany przez to urządzenie.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#a40000;&quot;&gt;Wpisany tajny klucz OTP jest dłuższy niż obsługiwany przez to urządzenie.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>secret is not passing validation.</source>
-        <translation>Sekret nie przechodzi walidacji.</translation>
+        <translation>Klucz tajny nie przeszedł pomyślnie procesu sprawdzenia.</translation>
     </message>
     <message>
         <source>Provided secret hex string is invalid. Please check input and try again.</source>
-        <translation>Pod warunkiem, że tajny łańcuch szesnastkowy jest nieważny. Sprawdź dane wejściowe i spróbuj ponownie.</translation>
+        <translation>Wprowadzony heksadecymalny klucz tajny jest błędny. Sprawdź dane i spróbuj ponownie.</translation>
     </message>
     <message>
         <source>Details: </source>
@@ -895,11 +895,11 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>WARNING: This Storage firmware version is old. Application may be unresponsive and unlocking encrypted volume may not work. Please update the firmware to the latest version. Guide should be available at: &lt;br/&gt;&lt;a href=&apos;https://www.nitrokey.com/en/doc/firmware-update-storage&apos;&gt;www.nitrokey.com/en/doc/firmware-update-storage&lt;/a&gt;.</source>
-        <translation>OSTRZEŻENIE: Ta wersja oprogramowania układowego pamięci masowej jest stara. Aplikacja może być niereagująca, a odblokowanie zaszyfrowanego woluminu może nie działać. Zaktualizuj oprogramowanie sprzętowe do najnowszej wersji. Przewodnik powinien być dostępny na stronie internetowej: &lt;br/&gt;&lt;a href=&apos;https://www.nitrokey.com/en/doc/firmware-update-storage&apos;&gt;www.nitrokey.com/en/doc/firmware-update-storage&lt;/a&gt;.</translation>
+        <translation>OSTRZEŻENIE: Ta wersja oprogramowania układowego pamięci masowej jest nieaktualna. Aplikacja może nie odpowiadać, a odblokowanie zaszyfrowanego woluminu może nie działać. Zaktualizuj oprogramowanie sprzętowe do najnowszej wersji. Poradnik jest dostępny na stronie internetowej: &lt;br/&gt;&lt;a href=&apos;https://www.nitrokey.com/en/doc/firmware-update-storage&apos;&gt;www.nitrokey.com/en/doc/firmware-update-storage&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>Nitrokey App</source>
-        <translation>Nitrokey App</translation>
+        <translation>Nitrokey</translation>
     </message>
     <message>
         <source>Overview</source>
@@ -907,15 +907,15 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>Unlock Encrypted Volume</source>
-        <translation>Odblokuj zaszyfrowaną objętość</translation>
+        <translation>Odblokuj zaszyfrowany wolumin</translation>
     </message>
     <message>
         <source>Unlock Hidden Volume</source>
-        <translation>Odblokuj objętość ukrytą</translation>
+        <translation>Odblokuj ukryty wolumin</translation>
     </message>
     <message>
         <source>Lock Device</source>
-        <translation>Urządzenie blokujące</translation>
+        <translation>Zablokuj urządzenie</translation>
     </message>
     <message>
         <source>Help</source>
@@ -923,15 +923,15 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>Quit</source>
-        <translation>wyjść</translation>
+        <translation>Wyjście</translation>
     </message>
     <message>
         <source>Copy secret to clipboard</source>
-        <translation>Kopiowanie tajemnicy do schowka</translation>
+        <translation>Kopiuj tajny klucz do schowka</translation>
     </message>
     <message>
         <source>Copy to clipboard</source>
-        <translation>Kopiowanie do schowka</translation>
+        <translation>Kopiuj do schowka</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -939,43 +939,43 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>General</source>
-        <translation>Generał</translation>
+        <translation>Ogólne</translation>
     </message>
     <message>
         <source>Show first-run message</source>
-        <translation>Pokaż pierwszy uruchomiony komunikat</translation>
+        <translation>Pokaż wiadomość startową</translation>
     </message>
     <message>
         <source>Show warning when no partitions could be detected on Encrypted Volume (Linux only)</source>
-        <translation>Wyświetlenie ostrzeżenia, gdy w Encrypted Volume nie można było wykryć żadnej partycji (tylko Linux)</translation>
+        <translation>Wyświetlenie ostrzeżenia, gdy na zaszyfrowanym woluminie nie można wykryć partycji(tylko Linux)</translation>
     </message>
     <message>
         <source>Show message about device&apos;s connection / disconnection</source>
-        <translation>Wyświetlić komunikat o podłączeniu/odłączeniu urządzenia</translation>
+        <translation>Wyświetla komunikat o podłączeniu/odłączeniu urządzenia</translation>
     </message>
     <message>
         <source>Show main window when device connects</source>
-        <translation>Pokaż okno główne, gdy urządzenie łączy się</translation>
+        <translation>Pokaż okno główne programu, gdy urządzenie próbuje się podłączyć</translation>
     </message>
     <message>
         <source>Hide main window when device disconnects</source>
-        <translation>Ukrywa okno główne, gdy urządzenie rozłącza się</translation>
+        <translation>Ukryj okno główne, gdy urządzenie próbuje się rozłączyć</translation>
     </message>
     <message>
         <source>Do not quit when the main window is closed</source>
-        <translation>Nie należy kończyć pracy, gdy okno główne jest zamknięte</translation>
+        <translation>Nie zamykaj programu, gdy okno główne jest zamknięte</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Translation file (needs restart)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Plik Tłumaczenie (wymaga ponownego uruchomienia)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Plik tłumaczenia (wymaga ponownego uruchomienia)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Translation file (needs restart)</source>
-        <translation>Plik Tłumaczenie (wymaga ponownego uruchomienia)</translation>
+        <translation>Plik tłumaczenia (wymaga ponownego uruchomienia)</translation>
     </message>
     <message>
         <source>Debug log settings</source>
-        <translation>Ustawienia dziennika usuwania błędów</translation>
+        <translation>Ustawienia dziennika debugowania</translation>
     </message>
     <message>
         <source>Path for debug log file:</source>
@@ -987,15 +987,15 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>Select path</source>
-        <translation>Wybrać ścieżkę</translation>
+        <translation>Wybierz ścieżkę</translation>
     </message>
     <message>
         <source>Logging enabled</source>
-        <translation>Włączone rejestrowanie</translation>
+        <translation>Włączone rejestrowanie zdarzeń</translation>
     </message>
     <message>
         <source>Log to console</source>
-        <translation>Logowanie do konsoli</translation>
+        <translation>Zapisywanie do konsoli</translation>
     </message>
     <message>
         <source>Clipboard settings</source>
@@ -1003,27 +1003,27 @@ Wybierz opcję &quot;Inicjalizacja przy użyciu losowych danych&quot;</translati
     </message>
     <message>
         <source>Time to store OTP secrets in clipboard (in seconds):</source>
-        <translation>Czas na przechowywanie tajemnic OTP w schowku (w sekundach):</translation>
+        <translation>Czas na przechowywanie haseł OTP w schowku (w sekundach):</translation>
     </message>
     <message>
         <source>Time to store Password Safe secrets in clipboard (in seconds):</source>
-        <translation>Czas na zapisanie haseł Bezpieczne sekrety w schowku (w sekundach):</translation>
+        <translation>Czas przechowywania bezpiecznych haseł w schowku (w sekundach):</translation>
     </message>
     <message>
         <source>TIme to store Password Safe secrets in clipboard (in seconds):</source>
-        <translation>TIME do przechowywania hasła Bezpieczne sekrety w schowku (w sekundach):</translation>
+        <translation>Czas przechowywania bezpiecznych haseł w schowku (w sekundach):</translation>
     </message>
     <message>
         <source>You can find application’s tray icon in system tray in the right down corner of your screen (Windows) or in the upper right (Linux, MacOS).</source>
-        <translation>Ikona tacy aplikacji znajduje się w zasobniku systemowym w prawym dolnym rogu ekranu (Windows) lub w prawym górnym rogu (Linux, MacOS).</translation>
+        <translation>Ikonę aplikacji znajdziesz w zasobniku systemowym: w prawym dolnym rogu ekranu (Windows) lub w górnym prawym rogu(Linux, MacOS).</translation>
     </message>
     <message>
         <source>Idle</source>
-        <translation></translation>
+        <translation>Bezczynny</translation>
     </message>
     <message>
         <source>Would you like to show this message again?</source>
-        <translation>Chciałbyś ponownie pokazać tę wiadomość?</translation>
+        <translation>Chcesz ponownie pokazywać tą wiadomość?</translation>
     </message>
     <message>
         <source>Device lock detected, please remove and insert the device again.
@@ -1032,22 +1032,22 @@ If problem will occur again please:
 2. Reinsert the device
 3. Wait 30 seconds and start application</source>
         <translation>Wykryto blokadę urządzenia, usuń je i włóż ponownie.
-Jeśli problem wystąpi ponownie, proszę: 
-1. Zamknij aplikację
+Jeśli problem wystąpi ponownie, należy: 
+1. Zamknąć aplikację
 2. Włożyć urządzenie ponownie.
-3. Odczekać 30 sekund i rozpocząć aplikację</translation>
+3. Odczekać 30 sekund i uruchomić aplikację</translation>
     </message>
     <message>
         <source>Warning: Application could not detect any partition on the Encrypted Volume. Please use graphical GParted or terminal fdisk/parted tools for this.</source>
-        <translation>Ostrzeżenie: Aplikacja nie wykryła żadnej partycji w woluminie zaszyfrowanym. Do tego celu należy używać narzędzi graficznych GParted lub terminalowych fdisk/parted.</translation>
+        <translation>Ostrzeżenie: Aplikacja nie wykryła żadnej partycji w woluminie zaszyfrowanym. Proszę użyć narzędzia GParted lub terminalowego fdisk/parted.</translation>
     </message>
     <message>
         <source>Would you like to be reminded again?</source>
-        <translation>Chcesz być ponownie przypomniany?</translation>
+        <translation>Czy chcesz otrzymywać przypomnienia?</translation>
     </message>
     <message>
         <source>Device connected. Waiting for initialization...</source>
-        <translation>Podłączone urządzenie. Oczekiwanie na inicjalizację...</translation>
+        <translation>Urządzenie podłączone. Oczekiwanie na inicjalizację...</translation>
     </message>
     <message>
         <source>Please run the application again to apply new settings.</source>
@@ -1055,25 +1055,25 @@ Jeśli problem wystąpi ponownie, proszę:
     </message>
     <message>
         <source>Would you like to quit now?</source>
-        <translation>Chcesz teraz rzucić palenie?</translation>
+        <translation>Na pewno chcesz wyjść?</translation>
     </message>
     <message>
         <source>Debug file location (will be overwritten)</source>
-        <translation>Lokalizacja pliku Debug (zostanie nadpisana)</translation>
+        <translation>Lokalizacja pliku debugowania (zostanie nadpisana)</translation>
     </message>
     <message>
         <source>current:</source>
-        <translation>prąd:</translation>
+        <translation>Obecna:</translation>
     </message>
     <message>
         <source>Communication error. Please reinsert the device.</source>
-        <translation>Błąd komunikacji. Prosimy o ponowne włożenie urządzenia.</translation>
+        <translation>Błąd komunikacji.Włóż urządzenie ponownie.</translation>
     </message>
     <message>
         <source>Warning: Encrypted volume is not secure,
 Select &quot;Initialize device&quot; option from context menu.</source>
-        <translation>WARNING: Encrypted volume is not secure,
-Select &quot;Initialize device&quot; option from context menu.</translation>
+        <translation>OSTRZEŻENIE: Zaszyfrowany wolumin nie jest bezpieczny,
+wybierz &quot;Inicjalizuj urządzenie&quot; z menu kontekstowego.</translation>
     </message>
 </context>
 <context>
@@ -1084,7 +1084,7 @@ Select &quot;Initialize device&quot; option from context menu.</translation>
     </message>
     <message>
         <source>Enter card password:</source>
-        <translation>Wprowadź hasło karty:</translation>
+        <translation>Wprowadź hasło karty inteligentnej:</translation>
     </message>
     <message>
         <source>Show password</source>
@@ -1110,23 +1110,23 @@ Select &quot;Initialize device&quot; option from context menu.</translation>
         <source>Warning: Default PIN is used.
 Please change the PIN.</source>
         <translation>Ostrzeżenie: Używany jest domyślny kod PIN.
-Zmień PIN.</translation>
+Zmień kod PIN.</translation>
     </message>
     <message>
         <source>Tries left: %1</source>
-        <translation>Próby trzy: %1</translation>
+        <translation>Pozostało prób: %1</translation>
     </message>
     <message>
         <source>Device is not yet initialized. Please try again later.</source>
-        <translation>Urządzenie nie jest jeszcze inicjalizowane. Spróbuj ponownie później.</translation>
+        <translation>Urządzenie nie jest jeszcze uruchomione. Spróbuj ponownie później.</translation>
     </message>
     <message>
         <source>Enter card PIN</source>
-        <translation>Wprowadź kod PIN karty</translation>
+        <translation>Wprowadź kod PIN karty inteligentnej</translation>
     </message>
     <message>
         <source>Enter user PIN</source>
-        <translation>Wprowadzić kod PIN użytkownika</translation>
+        <translation>Wprowadź kod PIN użytkownika</translation>
     </message>
     <message>
         <source>User PIN:</source>
@@ -1138,23 +1138,23 @@ Zmień PIN.</translation>
     </message>
     <message>
         <source>Admin PIN:</source>
-        <translation>PIN administratora:</translation>
+        <translation>Kod PIN administratora:</translation>
     </message>
     <message>
         <source>Enter Firmware Password</source>
-        <translation>Wprowadź hasło firmware&apos;u</translation>
+        <translation>Wprowadź hasło do firmware&apos;u</translation>
     </message>
     <message>
         <source>Enter Firmware Password:</source>
-        <translation>Wprowadź hasło sprzętowe:Wprowadź hasło firmware&apos;u:</translation>
+        <translation>Wprowadź hasło do firmware'u</translation>
     </message>
     <message>
         <source>Enter password for hidden volume</source>
-        <translation>Wprowadź hasło dla ukrytej głośności</translation>
+        <translation>Wprowadź hasło dla ukrytego woluminu</translation>
     </message>
     <message>
         <source>Enter password for hidden volume:</source>
-        <translation>Wprowadź hasło dla ukrytej głośności:</translation>
+        <translation>Wprowadź hasło dla ukrytego woluminu:</translation>
     </message>
     <message>
         <source>Would you like to so now?</source>
@@ -1162,7 +1162,7 @@ Zmień PIN.</translation>
     </message>
     <message>
         <source>Please enter the new PIN/password</source>
-        <translation></translation>
+        <translation>Wprowadź nowy kod PIN/hasło</translation>
     </message>
 </context>
 <context>
@@ -1170,7 +1170,7 @@ Zmień PIN.</translation>
     <message>
         <source>Critical error encountered. Please restart application.
 Message: </source>
-        <translation>Krytyczny napotkany błąd. Proszę zrestartować aplikację.
+        <translation>Wystąpił błąd krytyczny. Proszę zrestartować aplikację.
 Wiadomość: </translation>
     </message>
 </context>
@@ -1186,20 +1186,20 @@ Wiadomość: </translation>
     <message>
         <source>This activity locks your hidden volume. Do you want to proceed?
 To avoid data loss, please unmount the partitions before proceeding.</source>
-        <translation>Ta czynność blokuje ukrytą głośność. Chcesz kontynuować?
-Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należy odmontować partycje.</translation>
+        <translation>Ta czynność blokuje ukrytą partycję. Chcesz kontynuować?
+Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należy odmontować wszystkie partycje.</translation>
     </message>
     <message>
         <source>Enabling encrypted volume</source>
-        <translation>Włączenie szyfrowanej głośności</translation>
+        <translation> Uruchamianie szyfrowanego woluminu</translation>
     </message>
     <message>
         <source>Encrypted volume enabled</source>
-        <translation>Włączona zaszyfrowana głośność</translation>
+        <translation>Szyfrowany wolumin uruchomiony</translation>
     </message>
     <message>
         <source>Could not enable encrypted volume.</source>
-        <translation>Nie można włączyć szyfrowanego woluminu.</translation>
+        <translation>Nie można uruchomić szyfrowanego woluminu.</translation>
     </message>
     <message>
         <source>Wrong password.</source>
@@ -1207,13 +1207,13 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Status code: %1</source>
-        <translation>Kod stanu: %1</translation>
+        <translation>Kod statusu: %1</translation>
     </message>
     <message>
         <source>This activity locks your encrypted volume. Do you want to proceed?
 To avoid data loss, please unmount the partitions before proceeding.</source>
         <translation>Ta czynność blokuje zaszyfrowany wolumin. Chcesz kontynuować?
-Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należy odmontować partycje.</translation>
+Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należy odmontować wszystkie partycje.</translation>
     </message>
     <message>
         <source>Disabling encrypted volume</source>
@@ -1221,43 +1221,43 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Encrypted volume disabled</source>
-        <translation>Wyłączona zaszyfrowana głośność</translation>
+        <translation>Zaszyfrowany wolumin został wyłączony</translation>
     </message>
     <message>
         <source>Could not lock encrypted volume.</source>
-        <translation>Nie można zablokować zaszyfrowanej woluminu.</translation>
+        <translation>Nie można zablokować zaszyfrowanego woluminu.</translation>
     </message>
     <message>
         <source>Please enable the encrypted volume first.</source>
-        <translation>Najpierw należy włączyć szyfrowany wolumin.</translation>
+        <translation>Najpierw należy uruchomić zaszyfrowany wolumin.</translation>
     </message>
     <message>
         <source>Enabling hidden volume</source>
-        <translation>Włączanie ukrytej głośności</translation>
+        <translation>Uruchamianie ukrytego woluminu</translation>
     </message>
     <message>
         <source>Hidden volume enabled</source>
-        <translation>Głośność ukryta włączona</translation>
+        <translation>Ukryty wolumin został uruchomiony</translation>
     </message>
     <message>
         <source>Could not enable hidden volume.</source>
-        <translation>Nie można włączyć ukrytej głośności.</translation>
+        <translation>Nie można uruchomić ukrytego woluminu.</translation>
     </message>
     <message>
         <source>Disabling hidden volume</source>
-        <translation>Wyłączanie ukrytej głośności</translation>
+        <translation>Wyłączanie ukrytego woluminu</translation>
     </message>
     <message>
         <source>Hidden volume disabled</source>
-        <translation>Hidden volume disabled</translation>
+        <translation>Ukryty wolumin został wyłączony</translation>
     </message>
     <message>
         <source>Could not lock hidden volume.</source>
-        <translation>Nie można zablokować ukrytej głośności.</translation>
+        <translation>Nie można zablokować ukrytego woluminu.</translation>
     </message>
     <message>
         <source>Locking device</source>
-        <translation>Urządzenie blokujące</translation>
+        <translation>Blokowanie urządzenia</translation>
     </message>
     <message>
         <source>Device locked</source>
@@ -1269,19 +1269,19 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Device set in update mode</source>
-        <translation>Urządzenie ustawione w trybie aktualizacji</translation>
+        <translation>Urządzenie ustawione w trybie do aktualizacji</translation>
     </message>
     <message>
         <source>Device could not be set in update mode.</source>
-        <translation>Urządzenie nie mogło być ustawione w trybie aktualizacji.</translation>
+        <translation>Urządzenie nie mogło być ustawione w trybie do aktualizacji.</translation>
     </message>
     <message>
         <source>Firmware exported</source>
-        <translation>Eksport oprogramowania układowego</translation>
+        <translation>Firmware został wyeksportowany</translation>
     </message>
     <message>
         <source>Could not export firmware.</source>
-        <translation>Nie można eksportować firmware&apos;u.</translation>
+        <translation>Nie można wyeksportować firmware.</translation>
     </message>
     <message>
         <source>WARNING: Generating new AES keys will destroy the encrypted volumes, hidden volumes, and password safe! Continue?</source>
