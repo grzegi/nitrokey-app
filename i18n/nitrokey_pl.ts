@@ -1285,7 +1285,7 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>WARNING: Generating new AES keys will destroy the encrypted volumes, hidden volumes, and password safe! Continue?</source>
-        <translation>OSTRZEŻENIE: Wygenerowanie nowych kluczy AES spowoduje bezpieczne zniszczenie zaszyfrowanych woluminów, ukrytych woluminów i hasła! Kontynuuj?</translation>
+        <translation>OSTRZEŻENIE: Wygenerowanie nowych kluczy AES spowoduje zniszczenie zaszyfrowanych woluminów, ukrytych woluminów i hasła! Kontynuować?</translation>
     </message>
     <message>
         <source>Generating new AES keys</source>
@@ -1293,11 +1293,11 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>New AES keys generated</source>
-        <translation>Wygenerowane nowe klucze AES</translation>
+        <translation>Nowe klucze AES zostały wygenerowane</translation>
     </message>
     <message>
         <source>Keys could not be generated.</source>
-        <translation>Nie można było wygenerować kluczy.</translation>
+        <translation>Nie udało się wygenerować kluczy.</translation>
     </message>
     <message>
         <source>Could not clear SD card.</source>
@@ -1305,55 +1305,55 @@ Aby uniknąć utraty danych, przed przystąpieniem do dalszych czynności należ
     </message>
     <message>
         <source>Communication issue.</source>
-        <translation>Komunikacja.</translation>
+        <translation>Problem z komunikacją.</translation>
     </message>
     <message>
         <source>Flag cannot be cleared.</source>
-        <translation>Flaga nie może zostać usunięta.</translation>
+        <translation>Flaga nie może zostać wyczyszczona.</translation>
     </message>
     <message>
         <source>Flag cleared.</source>
-        <translation>Flaga usunięta.</translation>
+        <translation>Flaga wyczyszczona.</translation>
     </message>
     <message>
         <source>Cannot set unencrypted volume read-only</source>
-        <translation>Nie można ustawić woluminu nieszyfrowanego tylko do odczytu</translation>
+        <translation>Nie można ustawić woluminu niezaszyfrowanego jako tylko do odczytu</translation>
     </message>
     <message>
         <source>Unencrypted volume set read-only</source>
-        <translation>Nieszyfrowany zestaw głośności tylko do odczytu</translation>
+        <translation>Niezaszyfrowany wolumin został ustawiony jako tylko do odczytu</translation>
     </message>
     <message>
         <source>Cannot set unencrypted volume read-write</source>
-        <translation>Nie można ustawić nieszyfrowanego woluminu odczytu-zapisu</translation>
+        <translation>Nie udało się ustawić niezaszyfrowanego woluminu jako tylko do odczytu</translation>
     </message>
     <message>
         <source>Unencrypted volume set read-write</source>
-        <translation>Nieszyfrowany zestaw głośności Odczyt-zapis</translation>
+        <translation>Niezaszyfrowany wolumin ustawiony jako tylko do odczytu</translation>
     </message>
     <message>
         <source>Cannot set encrypted volume read-only</source>
-        <translation>Nie można ustawić szyfrowanego woluminu tylko do odczytu</translation>
+        <translation>Nie można ustawić szyfrowanego woluminu jako tylko do odczytu</translation>
     </message>
     <message>
         <source>Encrypted volume set read-only</source>
-        <translation>Kodowany zestaw głośności tylko do odczytu</translation>
+        <translation>Zaszyfrowany wolumin ustawiono jako tylko do odczytu</translation>
     </message>
     <message>
         <source>Cannot set encrypted volume read-write</source>
-        <translation>Nie można ustawić zaszyfrowanego zapisu i odczytu woluminu</translation>
+        <translation>Nie można ustawić zaszyfrowanego woluminu jako do odczytu i zapisu</translation>
     </message>
     <message>
         <source>Encrypted volume set read-write</source>
-        <translation>Szyfrowany zestaw głośności do odczytu i zapisu</translation>
+        <translation>Zaszyfrowany wolumin został ustawiony jako do odczytu i zapisu</translation>
     </message>
     <message>
         <source>Functionality not implemented in current version</source>
-        <translation>Funkcjonalność nie zaimplementowana w bieżącej wersji</translation>
+        <translation>Funkcjonalność nie jest zaimplementowana w bieżącej wersji</translation>
     </message>
     <message>
         <source>Hidden volume created</source>
-        <translation>Utworzona głośność ukryta</translation>
+        <translation>Utworzono ukryty wolumin</translation>
     </message>
     <message>
         <source>Hidden volume could not be created.</source>
